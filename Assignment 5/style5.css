@@ -1,0 +1,22 @@
+
+.book 	
+	{ text-decoration: underline;
+	  font-size: 200%;
+	  color: gold; }
+
+.publish
+	{ font-size: small;
+	  font-family: monospace;
+	  color: yellow; }
+	
+.author::first-letter 
+	{ font-size: 300%;
+	  color: cyan; }
+
+
+hr { height: 5; width: 80%; background-color: green; border-color: green; }
+
+h1 { font-family: "Brush Script MT";
+     font-size: 400%;
+     font-weight: 100; 
+     color: GoldenRod; }

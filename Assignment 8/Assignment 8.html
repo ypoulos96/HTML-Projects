@@ -1,0 +1,55 @@
+<html>
+	<!-- Web Page with Forms
+    	     Author: Yiannis Poulos
+    	     Date: 4/12/17 -->
+	
+<head>
+	<title> Forms </title>
+</head>
+
+<body>
+
+	<header> 
+		<h1 style= "text-align: center">
+			Forms </h1>
+	</header>
+
+	<form action="mailto:z1740176@students.niu.edu" method="post" enctype="text">
+	
+		<h2 style= "text-align: center">
+			Technical Support Request </h2> <br> <br>
+	<big>
+		First Name: <input type="text" name= "firstname" id= "firstname" size= 30> &emsp;
+		Last Name: <input type="text" name= "lastname" id= "lastname" size= 30> <br> <br>
+		E-mail Address: <input type="text" name= "email" id= "email"> <br> <br>
+		
+		Customer Description: <br>
+			&emsp; <input type="radio" name= "customer" id= "customer" value= "student"> Student <br>
+			&emsp; <input type="radio" name= "customer" id= "customer" value= "instructor"> Instructor <br>
+			&emsp; <input type="radio" name= "customer" id= "customer" value= "other"> Other <br> <br>
+
+			Product name: <input type="text" name= "productname" id= "productname"> &emsp;
+			Product type: 
+				<select name="producttype" id= "producttype">
+					<option> -- Select type -- </option>
+					<option> CD-ROM </option>
+					<option> USB Hub </option>
+					<option> Keyboard </option>
+					<option> Mouse </option>
+					<option> Printer </option>
+					<option> Scanner </option>
+					<option> Network </option>
+					<option> Other </option>
+				</select> <br> <br>
+
+			Please give a brief description of the problem: <br> <br>
+					<textarea rows="12" cols="80"></textarea> <br> <br>
+
+			<input type= "submit" value="Submit"> &emsp;
+			<input type= "reset" value="Reset">									
+	</big>	
+	</form>
+
+</body>
+
+</html>
